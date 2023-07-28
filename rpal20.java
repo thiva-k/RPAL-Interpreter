@@ -9,10 +9,13 @@ public class rpal20 {
             fn = "t1.txt"; 
             isPrintAST = true;
             isPrintST = true;
-            System.out.println(Evaluvator.evaluvate(fn,isPrintAST,isPrintST));                                   // get and print the answer
-
         }
-        else if(args.length==3 && args[0].equalsIgnoreCase("-ast") && args[1].equalsIgnoreCase("-st")){
+        else if(args.length==3 && (
+                                    (args[0].equalsIgnoreCase("-ast") && args[1].equalsIgnoreCase("-st")) ||
+                                    (args[0].equalsIgnoreCase("-st") && args[1].equalsIgnoreCase("-ast")) 
+                                    )
+                )
+        {
             fn = args[2];
             isPrintAST=true;
             isPrintST=true;
@@ -37,6 +40,8 @@ public class rpal20 {
             System.out.println("Invalid Arguments Passing!");
             return;
         }
+        System.out.println(Evaluvator.evaluvate(fn,isPrintAST,isPrintST));                                   // get and print the answer
+
 
                                                                  
     }
