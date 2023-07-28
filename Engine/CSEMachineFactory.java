@@ -3,6 +3,9 @@ package Engine;
 import Symbols.*;
 import java.util.ArrayList;
 
+import Standardizer.AST;
+import Standardizer.Node;
+
 public class CSEMachineFactory {
     private E e0 = new E(0);
     private int i = 1;

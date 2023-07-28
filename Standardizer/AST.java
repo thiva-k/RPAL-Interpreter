@@ -1,4 +1,4 @@
-package Engine;
+package Standardizer;
 
 public class AST {
     private Node root;
