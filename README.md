@@ -19,7 +19,8 @@ The following are the Instructions to run the project in a **command line:**
 - Your local machine must be able to run `make` command in command line, and have java installed.
 - Clone the repository to your local machine or download the project source code as a ZIP file.
 - Run `make` in the root directory
-- Put your RPAL test programs in the root directory. We had added the <a href="t1.txt">t1.txt</a> which contains the sample input program of the <a href="docs/ProgrammingProject.pdf">Project_Requirements</a> document
+- Put your RPAL test programs in the root directory. We had added the <a href="t1.txt">t1.txt</a> to the root directory, which contains the sample input program of the <a href="docs/ProgrammingProject.pdf">Project_Requirements</a> document.
+- For more test programs look at the <a href="test-programs">test-programs</a> directory.
 - The following are the available commands that can be used for running different RPAL programs:
   - Run `<path>\RPAL-Interpreter>java rpal20 <file>` for running the file which contains any RPAL programs and ***print only the Output***.
   - Run `<path>\RPAL-Interpreter>java rpal20 -ast <file>` for running the file and ***print AST(Abstract Syntax Tree) along with the Output***.
