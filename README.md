@@ -30,10 +30,11 @@ The following are the Instructions to run the project in a **command line:**
   - `-ast` and `-st` are case insetive when calling them.
 - You can run it with argument pasing in any other suitable environments too.
 
+
 ## Group Members
 <ul>
   <li><a href="https://github.com/sthanikan2000">Thanikan S.</a></li>
-  <li><a href="">Sabthana J.</a></li>
+  <li>Sabthana J.</li>
   <li><a href="https://github.com/thiva-k">Thivaharan K.</a></li>
 </ul>
 
